@@ -1,0 +1,28 @@
+.errorText {
+  color: #b40e0e;
+  margin: 0px;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+  border-radius: 5px;
+}
+
+.qnsTitle {
+  font-family: "Koulen", cursive;
+  font-size: 30px;
+}
+
+.all {
+  border-top: double #fcdab7 8px;
+  border-bottom: double #fcdab7 8px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+.all input {
+  width: 100%;
+  border-radius: 5px;
+}

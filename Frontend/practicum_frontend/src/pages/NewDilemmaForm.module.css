@@ -1,0 +1,73 @@
+/* .qnsOptionalSect {
+  align-self: center;
+} */
+
+.choices {
+  margin: 10px 10px 0px 10px;
+  border: solid #fcdab7 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.choices .title {
+  font-family: "Koulen", cursive;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.choices .header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.choices ol {
+  padding: 0px;
+  list-style: none;
+  counter-reset: item;
+}
+
+.choices .buttonRow {
+  justify-content: flex-end;
+}
+
+.choices button {
+  background: none;
+  border: none;
+  width: auto;
+  padding: 0px 15px 0px 0px;
+}
+
+.choices .buttonIcons {
+  height: 35px;
+  color: #fcdab7;
+}
+
+.choices .buttonIcons:hover {
+  color: #1e5f74;
+  border: solid white 2px;
+  border-radius: 50%;
+}
+
+.submitBtn {
+  justify-content: flex-end;
+}
+
+.submitBtn button {
+  background-color: #fcdab7;
+  border-radius: 5px;
+  width: auto;
+  margin: 20px 30px 0px 0px;
+  font-weight: bold;
+}
+
+.submitBtn button:enabled:hover {
+  background-color: #1e5f74;
+  color: white;
+  border: solid white 2px;
+}
+
+.errorText {
+  color: #b40e0e;
+  margin: 0px 0px 0px 10px;
+}

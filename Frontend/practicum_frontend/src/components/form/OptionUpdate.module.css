@@ -1,0 +1,36 @@
+li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #fcdab7;
+  font-weight: bold;
+  border-radius: 50%;
+  color: black;
+  width: 1.5em;
+  text-align: center;
+  position: absolute;
+}
+
+.weightDropdown {
+  font-size: 20px;
+}
+
+.errorText {
+  color: #b40e0e;
+  margin-left: 10px;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.optionUpdate input {
+  width: 95%;
+  padding-right: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}

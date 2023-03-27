@@ -1,0 +1,74 @@
+.all input {
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.all .invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.all .errorText {
+  margin-left: 10px;
+  color: #b40e0e;
+}
+
+.all .titleFont {
+  margin: 10px;
+  font-family: "Koulen", cursive;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.all .icon {
+  margin: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+.all button {
+  margin: 10px 10px 10px 10px;
+  background-color: #fcdab7;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+}
+
+.all button:enabled:hover {
+  background-color: #1e5f74;
+  color: white;
+  border: solid white 2px;
+}
+
+.all .userCol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all hr {
+  margin: 5px;
+  padding: 0px;
+  border: solid black 3px;
+}
+
+.all .header {
+  border-top: double #fcdab7 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.all .header > div {
+  width: auto;
+  max-width: 40%;
+  margin: 10px;
+}
+
+.bkList {
+  font-size: 20px;
+  background-color: #fcdab7;
+}
+
+.all .header .displayName {
+  font-family: "Koulen", cursive;
+  font-size: 25px;
+}

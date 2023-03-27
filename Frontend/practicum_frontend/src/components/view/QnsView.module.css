@@ -1,0 +1,85 @@
+.all {
+  border: solid #fcdab7 1px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.all .row {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.all .firstCol {
+  max-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.all .firstColChoice {
+  max-width: 120px;
+  color: white;
+  font-weight: bold;
+}
+
+.all .question {
+  margin: 5px;
+  border-top: dashed #fcdab7 2px;
+  border-bottom: dashed #fcdab7 2px;
+}
+
+.all .weight {
+  margin: 5px;
+  max-width: 100px;
+}
+
+.all .icon {
+  max-width: 40px;
+  padding-left: 5px;
+  color: #f7d716;
+}
+
+.all .singleOpt,
+.singleWeight {
+  border: solid #fcdab7 2px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.all .singleWeight {
+  max-width: 100px;
+}
+
+.all .singleOpt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all .buttonRow {
+  justify-content: flex-end;
+}
+
+.all .buttonRow button {
+  background: #fcdab7;
+  border-radius: 10px;
+  width: auto;
+  padding-bottom: 0px;
+  margin: 0px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.all .buttonRow button:enabled:hover {
+  background-color: #1e5f74;
+  color: white;
+}
+
+.all .buttonIcon {
+  height: 25px;
+  margin-left: 5px;
+}

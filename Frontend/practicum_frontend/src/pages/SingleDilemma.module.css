@@ -1,0 +1,104 @@
+.singleDil {
+  margin: 0px 10px 0px 10px;
+}
+
+.questionHeader {
+  text-align: center;
+  font-family: "Koulen", cursive;
+  font-size: 30px;
+  border-top: double #fcdab7 8px;
+  border-bottom: double #fcdab7 8px;
+  margin: 10px 0px 10px 0px;
+}
+
+.nameIcon {
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 25px;
+  align-items: center;
+}
+
+.nameIcon .bookmarkIcon {
+  width: auto;
+  height: 25px;
+  color: #f7d716;
+}
+
+.singleDil ol {
+  padding-left: 0px;
+  list-style: none;
+  counter-reset: item;
+}
+
+.choiceSect {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.addMinusBtn {
+  justify-content: flex-end;
+}
+
+.addMinusBtn button {
+  background: none;
+  border: none;
+  width: auto;
+  padding: 0px 15px 0px 0px;
+}
+
+.addMinusIcon:hover {
+  color: #1e5f74;
+  border: solid white 2px;
+  border-radius: 50%;
+}
+
+.addMinusIcon {
+  height: 35px;
+  color: #fcdab7;
+}
+
+.selAnsSect {
+  border: dashed white 3px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.selAnsSect > div {
+  width: auto;
+}
+
+.selectedAns {
+  font-family: "Koulen", cursive;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.rerunBtnRow {
+  justify-content: flex-end;
+}
+
+.rerunBtn {
+  margin: 10px;
+  background: #fcdab7;
+  border-radius: 5px;
+  width: auto;
+  font-size: 25px;
+}
+
+.rerunBtn:enabled:hover {
+  color: white;
+  background: #1e5f74;
+  border: solid white 2px;
+}
+
+.errorText {
+  color: #b40e0e;
+}

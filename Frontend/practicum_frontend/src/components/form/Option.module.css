@@ -1,0 +1,40 @@
+/* li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #fcdab7;
+
+  border-radius: 50%;
+  color: #fcdab7;
+  width: 1.5em;
+  text-align: center;
+  position: absolute;
+} */
+
+.itemDropdown {
+  font-size: 18px;
+}
+
+.errorText {
+  color: #b40e0e;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.optionInput input {
+  width: 100%;
+  margin-right: 0px;
+  border-radius: 5px;
+}
+
+.opt {
+  padding-right: 0px;
+  padding-left: 20px;
+}

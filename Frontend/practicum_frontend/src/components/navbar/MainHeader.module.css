@@ -1,0 +1,32 @@
+.bg {
+  background-color: #133b5c;
+}
+
+.navBrand {
+  font-family: "Oleo Script", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fcdab7 !important;
+}
+
+.navlink a:hover,
+a:active {
+  color: #fcdab7 !important;
+  /* padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0; */
+}
+
+.navlink a {
+  font-family: "Akshar", sans-serif;
+  font-size: 25px;
+  color: white !important;
+}
+
+/* .navbar-light .navbar-toggler button {
+  border-color: #fcdab7 !important;
+} */
+
+.navbarToggleIcon {
+  background-color: #fcdab7 !important;
+  border: solid #fcdab7 2px !important;
+}
